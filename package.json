@@ -1,17 +1,23 @@
 {
-  "name": "templater-cli",
-  "version": "1.0.0",
-  "description": "Pug/Twig templater",
-  "main": "bin/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "cli"
-  ],
-  "author": "Oleksandr Nikitin",
-  "license": "ISC",
-  "bin": {
-    "templater": "./bin/index.js"
-  },
+	"name": "templater-cli",
+	"version": "1.0.0",
+	"description": "Pug/Twig templater",
+	"main": "bin/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cli"
+	],
+	"author": "Oleksandr Nikitin",
+	"license": "ISC",
+	"bin": {
+		"templater-cli": "./bin/cli.js"
+	},
+	"dependencies": {
+		"@inquirer/prompts": "^7.0.0",
+		"colorette": "^2.0.20",
+		"util": "^0.12.5",
+		"yargs": "^17.7.2"
+	}
 }
