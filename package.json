@@ -1,18 +1,29 @@
 {
-	"name": "templater-cli",
-	"version": "1.0.0",
-	"description": "Pug/Twig templater",
+	"name": "u-templater-cli",
+	"version": "1.0.2",
+	"description": "uTemplater CLI for Pug/Twig templates",
 	"main": "bin/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
-		"cli"
+		"cli",
+		"templater",
+		"template",
+		"templates",
+		"file",
+		"files",
+		"create",
+		"generate",
+		"generator",
+		"pug",
+		"jade",
+		"twig"
 	],
 	"author": "Oleksandr Nikitin",
 	"license": "ISC",
 	"bin": {
-		"templater-cli": "./bin/cli.js"
+		"templater": "./bin/cli.js"
 	},
 	"dependencies": {
 		"@inquirer/prompts": "^7.0.0",
