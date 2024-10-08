@@ -1,4 +1,4 @@
-#uTemplater CLI for Pug/Twig templates
+# uTemplater CLI for Pug/Twig templates
 
 ## Installation
 ```bash
